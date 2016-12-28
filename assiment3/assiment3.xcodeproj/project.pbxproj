@@ -13,6 +13,8 @@
 		593B604E1E12CE5C003290BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593B604D1E12CE5C003290BF /* Assets.xcassets */; };
 		593B60511E12CE5C003290BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593B604F1E12CE5C003290BF /* LaunchScreen.storyboard */; };
 		593B605B1E12F6C6003290BF /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B605A1E12F6C6003290BF /* StudentsTableViewController.swift */; };
+		595008701E13F6D00078FA86 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950086F1E13F6D00078FA86 /* Student.swift */; };
+		595008721E13F7140078FA86 /* StudentDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595008711E13F7140078FA86 /* StudentDb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		593B60501E12CE5C003290BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593B60521E12CE5C003290BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		593B605A1E12F6C6003290BF /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		5950086F1E13F6D00078FA86 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		595008711E13F7140078FA86 /* StudentDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				593B604F1E12CE5C003290BF /* LaunchScreen.storyboard */,
 				593B60521E12CE5C003290BF /* Info.plist */,
 				593B605A1E12F6C6003290BF /* StudentsTableViewController.swift */,
+				5950086F1E13F6D00078FA86 /* Student.swift */,
+				595008711E13F7140078FA86 /* StudentDb.swift */,
 			);
 			path = assiment3;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				593B605B1E12F6C6003290BF /* StudentsTableViewController.swift in Sources */,
 				593B60491E12CE5C003290BF /* ViewController.swift in Sources */,
+				595008721E13F7140078FA86 /* StudentDb.swift in Sources */,
 				593B60471E12CE5C003290BF /* AppDelegate.swift in Sources */,
+				595008701E13F6D00078FA86 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				593B60571E12CE5C003290BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
